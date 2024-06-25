@@ -1,7 +1,7 @@
 {
   "name": "semantic-release-app",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "repository": "https://github.com/pvega95/semantic-release-app",
   "type": "module",
   "scripts": {
