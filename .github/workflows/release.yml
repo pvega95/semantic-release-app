@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main
-      - develop
+      - beta
+      - alpha
 
 jobs:
   release:
@@ -26,9 +27,13 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+      
+      - name: Set branch name environment variable
+        run: echo "BRANCH_NAME=${GITHUB_REF##*/}" >> $GITHUB_ENV
 
       - name: Run semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          BRANCH_NAME: ${{ env.BRANCH_NAME }}
         run: npx semantic-release
