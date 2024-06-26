@@ -1,3 +1,10 @@
+# [1.6.0-develop.2](https://github.com/pvega95/semantic-release-app/compare/v1.6.0-develop.1...v1.6.0-develop.2) (2024-06-26)
+
+
+### Features
+
+* **EAPP-1113:** update app ([fc08104](https://github.com/pvega95/semantic-release-app/commit/fc081049cac7e6d39dbe7fc2db3e6366e3879570))
+
 # [1.6.0-develop.1](https://github.com/pvega95/semantic-release-app/compare/v1.5.0...v1.6.0-develop.1) (2024-06-26)
 
 
