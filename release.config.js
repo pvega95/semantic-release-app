@@ -1,7 +1,7 @@
 export default {
   branches: [
     'main',
-    { name: 'develop', prerelease: true }
+    { name: 'develop', channel: 'develop', prerelease: true }
   ],
   repositoryUrl: 'https://github.com/pvega95/semantic-release-app',
   plugins: [
