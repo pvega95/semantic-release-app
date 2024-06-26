@@ -3,7 +3,7 @@ export default {
     'main',
     { name: 'develop', prerelease: true }
   ],
-  repositoryUrl: 'https://github.com/your-username/your-repo-name',
+  repositoryUrl: 'https://github.com/pvega95/semantic-release-app',
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
