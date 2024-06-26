@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/pvega95/semantic-release-app/compare/v1.2.0...v1.3.0) (2024-06-25)
+
+
+### Features
+
+* **EAPP-1111:** update package ([d6359b2](https://github.com/pvega95/semantic-release-app/commit/d6359b21b88b62e64ca672a9e2b1e592699c719e))
+
 # [1.2.0](https://github.com/pvega95/semantic-release-app/compare/v1.1.0...v1.2.0) (2024-06-25)
 
 
